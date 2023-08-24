@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --title_font: "Pacifico", cursive;
+  --paragraph_font: "Roboto", sans-serif;
+  --paragraph_color: #fffdfd;
+  --title_color: #006341;
+  --background_grend: #006341;
+  --background_cake: #fab1a0;
+}
+
+/*ELEMENTOS DESHABILITADOS*/
+@media (max-width: 767px) {
+  .header__image-content {
+    display: none;
+  }
+}
+
+.nav__menu-content {
+  width: 30px;
+  height: 30px;
+}
+
+.nav__logo-content {
+  width: 132px;
+  height: 41px;
+}
+
+.nav__logo-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logIn-cart {
+  display: flex;
+  align-items: center;
+}
+
+.header__cart-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  min-height: 100vh;
+}
+
+.title__container {
+  width: 70%;
+}
